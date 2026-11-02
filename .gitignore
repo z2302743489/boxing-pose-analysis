@@ -1,0 +1,9 @@
+# Python
+.venv/
+__pycache__/
+
+# Raw footage and generated output stay local (they contain faces and are large).
+videos/
+results/
+*.mp4
+*.mov
