@@ -71,6 +71,8 @@ scripts/run.sh videos/my_shadowboxing.mp4 1.75 orthodox
 
 ## 第一次实测（26 秒空击，正架）
 
+🎬 **[观看 0.5× 慢放标注视频](https://github.com/z2302743489/boxing-pose-analysis/releases/download/v0.1/shadowboxing_slowmo_CoM.mp4)**（53 秒，骨架 + 重心 + 躯干倾斜 + 出拳类型）
+
 - 检测到 35 拳（刺拳 19、后手直拳 16）；35 拳全部左脚在前，站架可自动推断
 - **后手直拳**平均把重心向前送 +0.05（最多 +0.11），**刺拳**基本不动重心（−0.03）
 - 出拳瞬间重心始终在两脚之间（0.46–0.76），没有扑出前脚
