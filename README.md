@@ -4,6 +4,12 @@
 
 > 这是我探索具身智能方向的个人项目：先把"人体运动"变成可度量的关节和重心数据，再思考这些数据如何迁移到人形机器人。
 
+<p align="center">
+  <img src="docs/shadowboxing_slowmo.gif" width="360" alt="0.5× 慢放：骨架、重心、躯干倾斜、出拳类型">
+  <br>
+  <sub>0.5× 慢放（空击组合段）：黄色靶心 = 身体重心，虚线 = 重心铅垂线，绿线 = 支撑面，顶部 = 躯干倾斜与重心位置</sub>
+</p>
+
 ![Weight shift during punches](docs/punches.png)
 
 ## 为什么做这个
@@ -71,7 +77,7 @@ scripts/run.sh videos/my_shadowboxing.mp4 1.75 orthodox
 
 ## 第一次实测（26 秒空击，正架）
 
-🎬 **[观看 0.5× 慢放标注视频](https://github.com/z2302743489/boxing-pose-analysis/releases/download/v0.1/shadowboxing_slowmo_CoM.mp4)**（53 秒，骨架 + 重心 + 躯干倾斜 + 出拳类型）
+🎬 **[下载完整 0.5× 慢放标注视频](https://github.com/z2302743489/boxing-pose-analysis/releases/download/v0.1/shadowboxing_slowmo_CoM.mp4)**（53 秒，骨架 + 重心 + 躯干倾斜 + 出拳类型；页面顶部动图是其中 20–25 秒的组合段）
 
 - 检测到 35 拳（刺拳 19、后手直拳 16）；35 拳全部左脚在前，站架可自动推断
 - **后手直拳**平均把重心向前送 +0.05（最多 +0.11），**刺拳**基本不动重心（−0.03）
