@@ -74,6 +74,7 @@ scripts/run.sh videos/my_shadowboxing.mp4 1.75 orthodox
 | `scripts/analyze.py` | 重心计算、关节角度图 |
 | `scripts/punch_analysis.py` | 出拳检测与逐拳指标 |
 | `scripts/render_overlay.py` | 生成慢放标注视频 |
+| `scripts/annotate_photo.py` | 单张照片：两人的骨架、重心、躯干倾斜，以及按姿态估算的出拳冲击力峰值（`--mass` 体重，`--stance` 站架） |
 
 ## 第一次实测（26 秒空击，正架）
 
